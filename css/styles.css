@@ -23,10 +23,10 @@ h1 {
     font-weight: 600;
 }
 
-/* 
+
 p {
     font-family: 'Inter Tight', sans-serif;
-} */
+}
 
 .jumbotron {
     margin-right: 30px;
@@ -35,6 +35,12 @@ p {
     padding-right: 30px;
     margin-bottom: 30px;
     background-color: #FDF0D5;
+
+
+}
+
+.jumbotron p {
+    font-size: 25px;
 }
 
 #dropdown {
