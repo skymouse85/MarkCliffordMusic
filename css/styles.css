@@ -19,13 +19,21 @@ header h1 {
 h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 50px;
-
     font-weight: 600;
 }
 
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+a {
+    color: #ff5252;
+}
 
 p {
-    font-family: 'Inter Tight', sans-serif;
+    font-family: 'raleway', sans-serif;
 }
 
 .jumbotron {
@@ -35,8 +43,6 @@ p {
     padding-right: 30px;
     margin-bottom: 30px;
     background-color: #FDF0D5;
-
-
 }
 
 .jumbotron p {
