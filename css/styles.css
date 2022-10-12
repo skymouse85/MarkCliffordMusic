@@ -62,3 +62,20 @@ p {
 dropdown-menu.show {
     background-color: #FDF0D5;
 }
+
+.site-footer {
+    border-top: 1px solid #003049;
+    padding: 20px, 0;
+}
+
+.theme-light:root {
+    --background: #f9f6e7;
+    --border: #d2c7ab;
+    --text-primary: #010101;
+    --text-secondary: #bdb296;
+    --accent-primary: #ff5252;
+    --accent-secondary: #99bbad;
+    --ui-negative: #fff;
+    --law-text: #fff;
+    --law-background: #010101;
+}
