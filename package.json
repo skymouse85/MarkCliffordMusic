@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/skymouse85/MarkCliffordMusic.git"
   },
-  "author": "",
+  "author": "Mark Clifford",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/skymouse85/MarkCliffordMusic/issues"
@@ -20,5 +20,13 @@
   "homepage": "https://github.com/skymouse85/MarkCliffordMusic#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-icons": "^1.9.1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }

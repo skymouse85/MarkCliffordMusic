@@ -1,0 +1,81 @@
+body {
+    background-color: #FDF0D5;
+}
+
+.display-4 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70px;
+
+    font-weight: 600;
+}
+
+header h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70px;
+
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+
+    font-weight: 600;
+}
+
+
+p {
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.jumbotron {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    background-color: #FDF0D5;
+
+
+}
+
+.jumbotron p {
+    font-size: 25px;
+}
+
+#dropdown {
+    background-color: #FDF0D5;
+    padding: 0%;
+    margin: 0%;
+}
+
+#dropdownMenuLink {
+    background-color: #FDF0D5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.dropdown-item {
+    background-color: #FDF0D5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+dropdown-menu.show {
+    background-color: #FDF0D5;
+}
+
+.site-footer {
+    border-top: 1px solid #003049;
+    padding: 20px, 0;
+}
+
+.theme-light:root {
+    --background: #f9f6e7;
+    --border: #d2c7ab;
+    --text-primary: #010101;
+    --text-secondary: #bdb296;
+    --accent-primary: #ff5252;
+    --accent-secondary: #99bbad;
+    --ui-negative: #fff;
+    --law-text: #fff;
+    --law-background: #010101;
+}
