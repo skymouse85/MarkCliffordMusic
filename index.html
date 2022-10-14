@@ -26,7 +26,6 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="containter">
             <div class="row">
-
                 <!-- logo div -->
                 <div class="col-3 col-sm-3 col-md-2 align-self-center ml-20">
                     <a href="index.html">
@@ -35,9 +34,9 @@
                 </div>
                 <div class="col-md-8 d-flex justify-content-center align-self-center">
                     <h1>Mark Clifford</h1>
-
                 </div>
-                <div class="dropdown">
+                <!-- SITE MENU -->
+                <!-- <div class="dropdown">
                     <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         menu
@@ -49,16 +48,73 @@
                         <a class="dropdown-item" href="projects.html">projects</a>
                         <a class="dropdown-item" href="contact.html">contact</a>
                     </div>
+                </div> -->
+            </div>
+            <div class="row">
+                <div class="col justify-content-center">
+                    <p class="d-flex justify-content-center">Vibraphonist • Composer • Programmer</p>
                 </div>
             </div>
-            <!-- <div class="row">
-                <div class="col justify-content-center">
-                    <p class="d-flex justify-content-center">vibraphonist, composer, programmer</p>
-                </div>
-            </div> -->
         </div>
 
     </header>
+    <!-- NAVBAR -->
+    <!-- about projects performances media contact  -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="#"><img src="img/blackVibes.svg" height="30" width="30" /></a> -->
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#mcMusicNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mcMusicNavbar">
+                <ul class="navbar-nav">
+                    <!-- ABOUT -->
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">About</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="bio.html">Biography</a>
+                            <a class="dropdown-item" href="discog.html">Discography</a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
+                    <!-- PROJECTS -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Projects</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="music.html">Music</a>
+                            <a class="dropdown-item" href="sheetMusic.html">Sheet Music • Scores</a>
+                            <a class="dropdown-item" href="performances.html">Programming</a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
+                    <!-- MEDIA -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Media</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="photos.html">Photos</a>
+                            <a class="dropdown-item" href="videos.html">Videos</a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
+                    <!-- PERFORMANCES -->
+                    <li class="nav-item"><a class="nav-link" href="performances.html"><i
+                                class="fa fa-lg"></i>Performances</a>
+                    </li>
+
+                    <!-- CONTACT -->
+                    <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-lg"></i> Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
     <!-- image container -->
     <div class="container">
         <div class="row row-content mb-5 pb-5">
@@ -68,19 +124,7 @@
 
         </div>
     </div>
-    <div class="container">
-        <div class="row my-5">
-            <div class="col-lg-4 d-flex justify-content-center">
-                <h2>vibraphonist</h2>
-            </div>
-            <div class="col-lg-4 d-flex justify-content-center">
-                <h2>composer</h2>
-            </div>
-            <div class="col-lg-4 d-flex justify-content-center">
-                <h2>programmer</h2>
-            </div>
-        </div>
-    </div>
+
 
     <!-- footer -->
     <footer class="site-footer">
@@ -88,27 +132,45 @@
             <div class="row mt-4 mb-4">
 
 
-                <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel: +14153681448"> <i class="fa fa-phone"></i>
-                        1-415-368-1448</a><br>
+                <div class="col-4 text-center">
+
                     <a role="button" class="btn btn-link" href="mailto:markmclifford@gmail.com"> <i
                             class="fa fa-envelope-o"></i> markmclifford@gmail.com</a>
                 </div>
                 <!-- socials -->
-                <div class="col-6 col-sm-5 text-center">
-                    <a href="https://www.instagram.com/mouscula/" target="_blank" rel="noreferrer noopener">
+                <div class="col-4 col-sm-5 text-center">
+
+                    <a href="https://thedirtysnacksensemble.bandcamp.com/" target="_blank" rel="noreferrer noopener"
+                        class="mx-2">
+                        <img src="img/Bandcamp-button-bc-circle-black.svg" alt="bandcamp" width="22" height="22">
+                    </a>
+
+                    <a href="https://open.spotify.com/artist/6xdTr1mJIaRT754Hbyvl19?si=6fEdAqrjSRWUFVHr77J6HQ"
+                        target="_blank" rel="noreferrer noopener" class="mx-2">
+                        <img src="img/spotify.svg" alt="spotify" width="22" height="22">
+                    </a>
+
+                    <a href="https://www.instagram.com/mouscula/" target="_blank" rel="noreferrer noopener"
+                        class="mx-2">
                         <img src="/img/instagram.svg" alt="instagram" width="22" height="22">
                     </a>
                     <a href="https://www.youtube.com/channel/UCuDnMBfi1ekE27boAVWvYpA/videos" target="_blank"
-                        rel="noreferrer noopener">
+                        rel="noreferrer noopener" class="mx-2">
                         <img src="img/youtube.svg" alt="youtube" width="22" height="22">
                     </a>
-                    <a href="https://twitter.com/markmclifford" target="_blank" rel="noreferrer noopener">
+
+
+                    <a href="https://twitter.com/markmclifford" target="_blank" rel="noreferrer noopener" class="mx-2">
                         <img src="img/twitter.svg" alt="twitter" width="22" height="22">
                     </a>
-                    <a href="https://thedirtysnacksensemble.bandcamp.com/" target="_blank" rel="noreferrer noopener">
-                        <img src="img/Bandcamp-button-bc-circle-black.svg" alt="bandcamp" width="22" height="22">
+
+                    <a href="https://www.facebook.com/mark.clifford.714/" target="_blank" rel="noreferrer noopener"
+                        class="mx-2">
+                        <img src="img/facebook.svg" alt="facebook" width="22" height="22">
                     </a>
+
+
+
 
                 </div>
                 <!-- links -->
