@@ -28,6 +28,11 @@ h2 {
     font-weight: 600;
 }
 
+h3 {
+    font-family: "Inter tight", sans-serif;
+    font-weight: 400;
+}
+
 a {
     color: #ff5252;
 }
@@ -49,20 +54,35 @@ p {
     font-size: 25px;
 }
 
+.btn-primary {
+    background-color: ;
+}
+
 #dropdown {
     background-color: #f9f6e7;
     padding: 0%;
     margin: 0%;
 }
 
+#inlineFormInputName2 {
+    font-family: "roboto mono" sans-serif;
+
+}
+
 #dropdownMenuLink {
-    background-color: #f9f6e7;
+    background-color: bg-dark;
     font-family: 'Roboto Mono', monospace;
 }
 
 .dropdown-item {
-    background-color: #f9f6e7;
+    /* background-color: bg-dark; */
     font-family: 'Roboto Mono', monospace;
+    color: #99bbad
+}
+
+.dropdown-menu {
+    background-color: bg-dark;
+
 }
 
 dropdown-menu.show {
